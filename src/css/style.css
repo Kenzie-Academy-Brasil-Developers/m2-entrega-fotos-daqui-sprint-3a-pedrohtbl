@@ -1,0 +1,169 @@
+body{
+    font-family: sans-serif;
+    background-color: #F1EEF8;
+}
+header{
+    background-color: #7253B0;
+    height: 229px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 28px;
+}
+form{
+    background-color: #FFFFFF;
+    height: 153px;
+    width: 806px;
+    border: 2px solid #F8F9FA;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.pesquisa--container{
+    width: 100%;
+}
+
+input{
+    width: 580px;
+    height: 60px;
+    border-radius: 8px;
+    padding-left: 15px;
+    background-color: #F5F5F5;
+    border: none;
+    margin: 10px 0;
+}
+.titulo--pesquisa{
+    font-size: 12px;
+    font-weight: 400;
+    color: #212529;
+}
+
+.filtros{
+    display: flex;
+}
+
+button{
+    background-color: #7253B0;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.btn--pesquisa{
+    width: 156px;
+    height: 60px;
+    padding: 0;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+.filtros>div{
+    background-color: #F1EEF8;
+    padding: 5px 15px;
+    margin: 0 10px;
+    color: #7253B0;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+    width: 40px;
+    flex-wrap: wrap;
+    height: 100px;
+    margin-top: 10px;
+}
+ul li {
+    width: 8px;
+    height: 8px;
+    background-color: #7253B0;
+    
+}
+
+ul li:nth-of-type(odd){
+    margin-right: 15px;
+}
+figure{
+    width: 450px;
+    height: 450px;
+    border-radius: 5px;
+    margin-left: 19px;
+}
+img{
+    width: 450px;
+    height: 450px;
+    border-radius: 5px; 
+}
+main{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 99px;
+}
+
+.legenda{
+    background-color: #FFFFFF;
+    width: 424px;
+    height: 89px;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 40px -20px rgba(0, 0, 0, 0.25);
+}
+
+.dec{
+    width: 30px;
+    height: 5px;
+    background-color: #7253B0;
+}
+
+section h1{
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+section h2{
+    font-size: 10px;
+    font-weight: 400;
+    color: #878787;
+}
+
+.div--button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 89px;
+}
+
+.div--button button{
+    width: 47px;
+    height: 37px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.box--legenda{
+    display: flex;
+    bottom: 1px;
+    position: fixed;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 5px;
+    
+}
