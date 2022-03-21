@@ -89,17 +89,26 @@ ul li {
 ul li:nth-of-type(odd){
     margin-right: 15px;
 }
-figure{
+.figure{
     width: 450px;
     height: 450px;
     border-radius: 5px;
     margin-left: 19px;
 }
-img{
+
+.figure li {
     width: 450px;
     height: 450px;
-    border-radius: 5px; 
+    position: absolute;
 }
+
+.figure img{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
 main{
     display: flex;
     justify-content: center;
@@ -159,7 +168,7 @@ section h2{
 
 .box--legenda{
     display: flex;
-    bottom: 1px;
+    bottom: 100px;
     position: fixed;
     flex: none;
     order: 0;
